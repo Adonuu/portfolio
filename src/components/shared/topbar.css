@@ -1,0 +1,11 @@
+header {
+    background-color: orange;
+    color: white;
+    padding: 1rem;
+    box-shadow: 0 0 1rem orange;
+}
+
+header > a {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
