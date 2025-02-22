@@ -5,7 +5,16 @@ export function TopBar()
 
     return (
         <header>
-            <a>Adam Young</a>
+            <nav>
+                <a class="logo">Adam Young</a>
+                <div>
+                    <a>About</a>
+                    <a>Work</a>
+                    <a>Resume</a>
+                    <a>Contact</a>
+                </div>
+                
+            </nav>
         </header>
     );
 }

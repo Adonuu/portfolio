@@ -1,11 +1,33 @@
 header {
-    background-color: orange;
     color: white;
-    padding: 1rem;
-    box-shadow: 0 0 1rem orange;
 }
 
-header > a {
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > a.logo {
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+nav > div {
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
 }
