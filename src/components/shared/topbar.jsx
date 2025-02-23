@@ -6,7 +6,7 @@ export function TopBar()
     return (
         <header>
             <nav>
-                <a class="logo">Adam Young</a>
+                <a className="logo">Adam Young</a>
                 <div>
                     <a>About</a>
                     <a>Work</a>
