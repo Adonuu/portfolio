@@ -15,8 +15,12 @@ nav {
 }
 
 nav > a.logo {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     font-weight: 700;
+}
+
+nav > div > a {
+    font-size: 1.25rem;
 }
 
 nav > div {
@@ -32,5 +36,5 @@ nav > a, nav > div > a {
 
 nav > a:hover, nav > div > a:hover {
     text-decoration: underline;
-    text-underline-offset: 8px;
+    text-underline-offset: 0.75rem;
 }
