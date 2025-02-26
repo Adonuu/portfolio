@@ -8,7 +8,6 @@ import { Layout } from './layout';
 
 // Pages
 import { Index } from './pages/index';
-import { About } from './pages/about';
 import { Resume } from './pages/resume';
 import { Work } from './pages/work';
 
@@ -20,7 +19,6 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       { path: "", element: <Index /> },
-      { path: "about", element: <About /> },
       { path: "resume", element: <Resume /> },
       { path: "work", element: <Work /> }
     ],

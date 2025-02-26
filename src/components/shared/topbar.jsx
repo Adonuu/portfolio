@@ -7,7 +7,6 @@ export function TopBar() {
       <nav>
         <Link to="/" className="logo">Adam Young</Link>
         <div>
-          <Link to="/about">About</Link>
           <Link to="/resume">Resume</Link>
           <Link to="/work">Work</Link>
         </div>
