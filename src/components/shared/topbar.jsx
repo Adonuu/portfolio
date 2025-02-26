@@ -1,20 +1,17 @@
-import './topbar.css'
+import { Link } from 'react-router-dom';
+import './topbar.css';
 
-export function TopBar()
-{
-
-    return (
-        <header>
-            <nav>
-                <a className="logo">Adam Young</a>
-                <div>
-                    <a>About</a>
-                    <a>Work</a>
-                    <a>Resume</a>
-                    <a>Contact</a>
-                </div>
-                
-            </nav>
-        </header>
-    );
+export function TopBar() {
+  return (
+    <header>
+      <nav>
+        <Link to="/" className="logo">Adam Young</Link>
+        <div>
+          <Link to="/about">About</Link>
+          <Link to="/resume">Resume</Link>
+          <Link to="/work">Work</Link>
+        </div>
+      </nav>
+    </header>
+  );
 }

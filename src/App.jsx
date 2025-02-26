@@ -1,13 +1,34 @@
-import { TopBar } from './components/shared/topbar';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 
-function App() {
+// layout
+import { Layout } from './layout';
 
-  return (
-    <>
-      <TopBar></TopBar>
-    </>
-  )
-}
+// Pages
+import { Index } from './pages/index';
+import { About } from './pages/about';
+import { Resume } from './pages/resume';
+import { Work } from './pages/work';
 
-export default App
+
+// Create the router with a layout wrapper
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      { path: "", element: <Index /> },
+      { path: "about", element: <About /> },
+      { path: "resume", element: <Resume /> },
+      { path: "work", element: <Work /> }
+    ],
+  },
+]);
+
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <RouterProvider router={router} />
+  </StrictMode>
+);
