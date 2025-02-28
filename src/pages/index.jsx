@@ -49,6 +49,9 @@ export function Index() {
             url={"https://react.dev/"} 
           />
         </li>
+        <li>
+          Vanilla HTML, CSS, and Javascript
+        </li>
       </ul>
       <h2>Automation & Controls</h2>
       <ul>
