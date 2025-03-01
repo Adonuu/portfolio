@@ -14,9 +14,21 @@ nav {
     align-items: center;
 }
 
-nav > a.logo {
+nav > div > a.logo {
     font-size: 1.75rem;
     font-weight: 700;
+}
+
+.logoContainer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav > div > a {
