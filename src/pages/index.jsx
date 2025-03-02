@@ -17,10 +17,13 @@ export function Index() {
         which ultimately shaped my career path.
       </p>
       <p>
-        This curiosity led me to pursue a degree in Mechanical Engineering, after which I started my career as a test engineer.  
-        Over time, I became increasingly interested in the software behind machine control systems, which inspired my transition into controls engineering.  
-        Writing software to control machines gave me a new perspective, fueling my desire to explore traditional software development.  
-        Now, I&apos;m expanding my skills in software engineering to bridge the gap between controls and modern application development.
+        This curiosity led me to pursue a degree in Mechanical Engineering, where I developed a strong foundation in problem-solving and system design. 
+        While working as a test engineer, I became increasingly fascinated by software and its role in automation and system optimization. 
+        This curiosity drove me to deepen my understanding of programming, leading me to explore software engineering more broadly. 
+        Now, I am actively expanding my skills in software development, focusing on data structures, algorithms, and modern application development to build scalable and efficient software solutions.
+      </p>
+      <p>
+        I&apos;m always eager to collaborate on interesting projects or explore new challenges—feel free to reach out if there&apos;s something I can contribute to!
       </p>
       <h1>Technologies</h1>
       <h2>Web</h2>
