@@ -1,11 +1,10 @@
 import PropTypes from "prop-types";
 
-import "./link.css";
-
 export function Link({label, url}) {
     return (
         <>
         <a
+            className="underline text-lg"
             href={url}
             target="_blank" 
             rel="noopener noreferrer"
@@ -15,8 +14,6 @@ export function Link({label, url}) {
         </>
     );
 }
-
-
 
 Link.propTypes = {
     label: PropTypes.string,
