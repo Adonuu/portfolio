@@ -1,4 +1,4 @@
-import { Link } from "../components/shared/link";
+import { Link } from "../components/link";
 
 export function Work() {
   return (

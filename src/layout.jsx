@@ -1,6 +1,6 @@
 import { Outlet, useLocation } from 'react-router-dom';
 import { useState, useLayoutEffect } from 'react';
-import { TopBar } from './components/shared/topbar';
+import { TopBar } from './components/topbar';
 
 export function Layout() {
   const location = useLocation();
