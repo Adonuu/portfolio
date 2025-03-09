@@ -52,12 +52,12 @@ export function TopBar() {
           </div>
         </div>
         <BurgerMenu className="flex ml-4 justify-center items-center lg:hidden" />
-        <div className="hidden gap-2 lg:flex  lg:ml-auto mt-2 lg:mt-0">
+        <div className="hidden gap-2 md:flex  lg:ml-auto mt-2 lg:mt-0">
           <Link className="relative text-lg hover:text-blue-500 after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 after:scale-x-0 hover:after:scale-x-100 hover:after:origin-left hover:no-underline" to="/resume">Resume</Link>
           <Link className="relative text-lg hover:text-blue-500 after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-blue-500 after:transition-all after:duration-300 after:scale-x-0 hover:after:scale-x-100 hover:after:origin-left hover:no-underline" to="/work">Work</Link>
         </div>
       </nav>
-      <div className="h-0.25 bg-white w-3/5 mx-auto"></div>
+      <div className="h-0.25 w-4/5 bg-white lg:w-3/5 mx-auto"></div>
     </header>
   );
 }
