@@ -37,12 +37,12 @@ export function BurgerMenu({ className }) {
         </svg>
       </button>
       <div 
-        className={`fixed top-0 right-0 h-full w-64 bg-[#242424] shadow-lg p-4 flex flex-col items-start gap-4 z-50 transition-transform duration-300 ease-in-out transform ${isOpen ? "translate-x-0" : "translate-x-full"}`}
+        className={`burger-menu fixed top-0 right-0 h-full w-64 bg-[#242424] shadow-lg p-4 flex flex-col items-start gap-4 z-50 transition-transform duration-300 ease-in-out transform ${isOpen ? "translate-x-0" : "translate-x-full"}`}
       >
         <nav className="flex flex-col gap-4">
-          <Link to="/" className="text-lg font-medium">Home</Link>
-          <Link to="/resume" className="text-lg font-medium">Resume</Link>
-          <Link to="/work" className="text-lg font-medium">Work</Link>
+          <Link to="/" className="text-lg font-medium" onClick={() => setIsOpen(!isOpen)}>Home</Link>
+          <Link to="/resume" className="text-lg font-medium" onClick={() => setIsOpen(!isOpen)}>Resume</Link>
+          <Link to="/work" className="text-lg font-medium" onClick={() => setIsOpen(!isOpen)}>Work</Link>
         </nav>
       </div>
     </div>
