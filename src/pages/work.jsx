@@ -172,6 +172,17 @@ export function Work() {
           which has contributed to improvements in our .NET/Blazor codebase.
         </p>
       </div>
+      <div className="p-4">
+        <Link 
+          className="text-lg font-bold"
+          label={"A Common-Sense Guide to Data Structures and Algorithms by Jay Wengrow"}
+          url={"https://www.amazon.com/Common-Sense-Guide-Structures-Algorithms-Second-dp-1680507222/dp/1680507222"}
+        />
+        <p className="mt-4">
+          Currently reading this book to improve my knowledge of data structures and algorithms.
+          I am doing this so I can improve the scalability and performance of my codebases.
+        </p>
+      </div>
     </>
   );
 }
