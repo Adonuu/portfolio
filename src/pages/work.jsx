@@ -7,7 +7,7 @@ export function Work() {
       <div className="p-4">
         <h2 className="text-xl font-bold">Milacron (2019-Present)</h2>
         <div className="p-4">
-          <h3 className="text-lg font-bold">Product Validation Engineer (2019-2021)</h3>
+          <h3 className="text-lg font-bold">Product Validation Engineer (July 2019 - Nov 2021)</h3>
           <p className="mt-4">
             I began my career at Milacron right after university in the product validation department, where I developed a deep understanding of the mechanical, electrical, and software systems of our machines.
             My role involved tuning machines to meet engineering specifications and documenting test procedures for new products.
@@ -17,7 +17,7 @@ export function Work() {
           </p>
         </div>
         <div className="p-4">
-          <h3 className="text-lg font-bold">Controls Software Engineer (2021-2023)</h3>
+          <h3 className="text-lg font-bold">Controls Software Engineer (Nov 2021 - May 2024)</h3>
           <p className="mt-4">
             In this role, I developed features for both existing and in-development control systems, implementing customer-requested machine sequencing and porting control features to a new platform.
             I gained a comprehensive understanding of the machine software architecture, including the custom libraries used for machine control.
@@ -26,7 +26,7 @@ export function Work() {
           </p>
         </div>
         <div className="p-4">
-          <h3 className="text-lg font-bold">Control Systems Architecture Engineer (2023-Present)</h3>
+          <h3 className="text-lg font-bold">Control Systems Architecture Engineer (May 2024-Present)</h3>
           <p className="mt-4">
             In my current role, I am focused on developing the next-generation controls platform, particularly the new human-machine interface (HMI).
             This platform utilizes .NET Core and Blazor for the interface, with OPC-UA facilitating communication with the PLC.
