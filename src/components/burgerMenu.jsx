@@ -16,12 +16,25 @@ export function BurgerMenu({ className }) {
   }, [isOpen]);
 
   return (
-    <div className={` ${className}`}>
+    <div className={`${className}`}>
       <button 
-        className="p-2 md:hidden focus:outline-none text-4xl" 
+        className="p-2 md:hidden focus:outline-none" 
         onClick={() => setIsOpen(!isOpen)}
       >
-        {isOpen ? "✖" : "☰"}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="text-white"
+        >
+          <path d="M3 12h18M3 6h18M3 18h18" />
+        </svg>
       </button>
       <div 
         className={`fixed top-0 right-0 h-full w-64 bg-[#242424] shadow-lg p-4 flex flex-col items-start gap-4 z-50 transition-transform duration-300 ease-in-out transform ${isOpen ? "translate-x-0" : "translate-x-full"}`}
