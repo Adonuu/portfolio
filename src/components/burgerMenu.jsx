@@ -18,7 +18,7 @@ export function BurgerMenu({ className }) {
   return (
     <div className={`${className}`}>
       <button 
-        className="p-2 md:hidden focus:outline-none" 
+        className="p-2 cursor-pointer md:hidden focus:outline-none" 
         onClick={() => setIsOpen(!isOpen)}
       >
         <svg
