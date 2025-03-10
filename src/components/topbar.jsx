@@ -41,12 +41,10 @@ export function TopBar() {
     <svg
       className="w-8 h-8 text-white group-hover:text-blue-500 transition-all duration-300 transform group-hover:scale-125"
       xmlns="http://www.w3.org/2000/svg"
-      width="32"
-      height="32"
-      viewBox="0 0 24 24"
+      viewBox="0 0 75.294 75.294"
       fill="currentColor"
     >
-      <path d="M2 4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2H2zm0 2h20v.01L12 13 2 6.01V6zm0 12v-9l10 7 10-7v9H2z"/>
+      <path d="M66.1 12.1h-56.9C4.1 12.1 0 16.2 0 21.3v32.7c0 5.1 4.1 9.2 9.2 9.2h56.9c5.1 0 9.2-4.1 9.2-9.2V21.3c0-5.1-4.1-9.2-9.2-9.2ZM61.6 18.1 37.6 33.5 13.7 18.1h47.9ZM66.1 57.2h-56.9c-1.7 0-3.1-1.4-3.1-3.2V21.5l29.8 19.2c.3.2.6.3.9.4.3.1.5.1.8.1s.5 0 .8-.1c.3-.1.6-.2.9-.4l29.8-19.2v32.6c0 1.8-1.4 3.2-3.2 3.2Z"/>
     </svg>
   </a>
 </div>
