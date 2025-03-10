@@ -179,8 +179,7 @@ export function Work() {
           url={"https://www.amazon.com/Common-Sense-Guide-Structures-Algorithms-Second-dp-1680507222/dp/1680507222"}
         />
         <p className="mt-4">
-          Currently reading this book to improve my knowledge of data structures and algorithms.
-          I am doing this so I can improve the scalability and performance of my codebases.
+          I&apos;m currently reading this book to deepen my understanding of data structures and algorithms, aiming to enhance the scalability and performance of my codebases.
         </p>
       </div>
     </>
