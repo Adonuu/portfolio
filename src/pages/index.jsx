@@ -6,7 +6,7 @@ export function Index() {
       <h1 className="text-2xl font-bold">About Me</h1>
       <p className="mt-4">
         Hello, my name is Adam. I am a software and controls engineer based in{" "}
-        <Link label={"Cincinnati, OH"} url={"https://www.google.com/maps/place/Cincinnati,+OH"} />, 
+        <Link label={"Rochester, MN"} url={"https://www.google.com/maps/place/Rochester,+MN"} />, 
         currently working at{" "}
         <Link label={"Milacron"} url={"https://www.milacron.com"}/ >{" "}
         as a Controls System Architecture Engineer.  
