@@ -26,7 +26,7 @@ export function Work() {
           </p>
         </div>
         <div className="p-4">
-          <h3 className="text-lg font-bold">Control Systems Architecture Engineer (May 2024-Present)</h3>
+          <h3 className="text-lg font-bold">R&D - Control Systems Architecture Engineer (May 2024-Present)</h3>
           <p className="mt-4">
             In my current role, I am focused on developing the next-generation controls platform, particularly the new human-machine interface (HMI).
             This platform utilizes .NET Core and Blazor for the interface, with OPC-UA facilitating communication with the PLC.

@@ -9,7 +9,7 @@ export function Index() {
         <Link label={"Rochester, MN"} url={"https://www.google.com/maps/place/Rochester,+MN"} />, 
         currently working at{" "}
         <Link label={"Milacron"} url={"https://www.milacron.com"}/ >{" "}
-        as a Controls System Architecture Engineer.  
+        as an R&D - Controls System Architecture Engineer.  
         I&apos;m actively learning web development, as well as deepening my understanding of data structures and algorithms.
       </p>
       <p className="mt-4">
